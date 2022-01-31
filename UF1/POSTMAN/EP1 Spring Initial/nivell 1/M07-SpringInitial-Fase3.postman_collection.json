@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "79598969-c5cb-4352-91bc-1899f6bec80f",
+		"name": "M07-SpringInitial-Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "HelloWordl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello Username",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{port}}/{{$randomUserName}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"{{$randomUserName}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

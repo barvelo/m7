@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "1e689be3-dd24-43a6-9964-553bf642cf41",
+		"name": "M07-SpringInitial-Fase 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
